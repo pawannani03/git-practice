@@ -1,8 +1,0 @@
-# Prompt for a number and convert the string input to an integer
-number = int(input("Enter a number to check: "))
-
-# Check if the remainder is zero when divided by 2
-if number % 2 == 0:
-    print(f"{number} is an Even number.")
-else:
-    print(f"{number} is an Odd number.")
